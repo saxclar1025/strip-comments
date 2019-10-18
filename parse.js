@@ -144,7 +144,7 @@ const compile = (ast, options = {}) => {
     let value;
     let lines;
 
-    for (const child of node.nodes) {
+    node.nodes.forEach((child) => {
       switch (child.type) {
         case 'block':
           if (options.first && firstSeen === true) {
@@ -186,7 +186,7 @@ const compile = (ast, options = {}) => {
           break;
         }
       }
-    }
+    });
 
     return output;
   };
