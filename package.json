@@ -1,12 +1,12 @@
 {
-  "name": "strip-comments",
-  "description": "Strip comments from code. Removes line comments, block comments, the first comment only, or all comments. Optionally ignore protected comments.",
-  "version": "1.0.2",
-  "homepage": "https://github.com/jonschlinkert/strip-comments",
-  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/strip-comments",
+  "name": "strip-comments-browser",
+  "description": "Fork of strip-comments (credit: jonschlinkert) that is compatible with older browsers like IE11",
+  "version": "1.0.3",
+  "homepage": "https://github.com/saxclar1025/strip-comments-browser",
+  "author": "Samuel Falcon (https://github.com/saxclar1025)",
+  "repository": "saxclar1025/strip-comments-browser",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/strip-comments/issues"
+    "url": "https://github.com/saxclar1025/strip-comments-browser/issues"
   },
   "license": "MIT",
   "files": [
